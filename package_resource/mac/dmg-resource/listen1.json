@@ -1,0 +1,19 @@
+{
+
+  "title": "Listen 1",
+
+  "icon": "listen1_install_disk_icon.png.icns",
+
+  "background": "listen1_install_background.png",
+
+  "icon-size": 80,
+
+  "contents": [
+
+    { "x": 448, "y": 344, "type": "link", "path": "/Applications" },
+
+    { "x": 192, "y": 344, "type": "file", "path": "Listen 1.app" }
+
+  ]
+
+}
