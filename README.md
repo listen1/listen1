@@ -13,6 +13,9 @@ Listen 1 让你用一个网页就能听到多个网站的在线音乐（现已�
 * 主页：[https://github.com/listen1/listen1](https://github.com/listen1/listen1)
 * 联系邮箱：githublisten1@gmail.com
 
+[![platform](http://i.imgur.com/if4CNr2.png?1)]()
+
+
 安装
 ----
 #### Windows 环境
@@ -33,7 +36,7 @@ Mac安装包（点击下载）：[listen1_mac.dmg](https://raw.githubusercontent
 ----------
 后台基于tornado开发，可以用Python环境直接运行。
 
-1. pip环境下按照在requirements下的package
+1. pip环境下安装在requirements下的package
 
 	pip install -r requirements/dev.txt
 
