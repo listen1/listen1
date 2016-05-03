@@ -158,7 +158,7 @@ def get_album(album_id):
         id='qqalbum_' + str(album_id))
 
     result = []
-    for song in data['data']['list']:
+    for song in data['data']['list'] or []:
         result.append(_convert_song(song))
     return dict(tracks=result, info=info)
 
