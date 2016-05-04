@@ -1,7 +1,7 @@
 Listen 1
 ==========
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.txt)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 [![platform](https://img.shields.io/badge/python-2.7-green.svg)]()
 
 Listen 1 让你用一个网页就能听到多个网站的在线音乐（现已包括网易云音乐，QQ音乐，虾米音乐，豆瓣音乐）。你可以非常的简单的访问和收听在线音乐，而不用受到单个音乐网站资源不全的限制了。
@@ -19,7 +19,7 @@ Listen 1 让你用一个网页就能听到多个网站的在线音乐（现已�
 安装
 ----
 #### Windows 环境
-Windows安装包（点击下载）：[listen1_windows.zip](https://raw.githubusercontent.com/listen1/listen1/master/dist/listen1_windows.zip)
+Windows安装包（点击下载）：[listen1_windows.zip](https://github.com/listen1/listen1/releases/download/v1.0/listen1_windows_v1_0.zip)
 
 1. 解压缩后，运行msi文件完成安装。
 2. 点击桌面的Listen 1图标就会打开Listen 1的应用网页了。  
@@ -27,7 +27,7 @@ Windows安装包（点击下载）：[listen1_windows.zip](https://raw.githubuse
 注意：可能误触发杀毒软件的警报，请忽略。
 
 #### Mac 环境
-Mac安装包（点击下载）：[listen1_mac.dmg](https://raw.githubusercontent.com/listen1/listen1/master/dist/listen1_mac.dmg)
+Mac安装包（点击下载）：[listen1_mac.dmg](https://github.com/listen1/listen1/releases/download/v1.0/listen1_mac_v1_0.dmg)
 
 1. 运行dmg文件完成安装。
 2. 点击Listen 1图标就会打开Listen 1的应用网页了。
