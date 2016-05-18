@@ -125,7 +125,7 @@ def _convert_song2(song):
 
 
 def _top_playlists(category=1, order='hot', offset=0, limit=60):
-    action = 'http://douban.fm/j/v2/songlist/explore?type=hot&genre=1&' + \
+    action = 'https://douban.fm/j/v2/songlist/explore?type=hot&genre=1&' + \
         'limit=60&sample_cnt=5'
     data = json.loads(_db_h(action, auth=True))
     return data
@@ -135,7 +135,7 @@ def _top_playlists(category=1, order='hot', offset=0, limit=60):
 
 
 def get_captcha_token(path):
-    human_url = 'http://douban.fm/j/new_captcha'
+    human_url = 'https://douban.fm/j/new_captcha'
     captcha_token = h(human_url)[1:-1]
     pic_url = 'http://douban.fm/misc/captcha?size=m&id=' + captcha_token
     c = h(pic_url)
@@ -145,7 +145,7 @@ def get_captcha_token(path):
 
 
 def login(user, password, token, solution):
-    login_url = 'http://douban.fm/j/login'
+    login_url = 'https://douban.fm/j/login'
     v = dict(
         source='radio', alias=user, form_password=password,
         captcha_id=token, captcha_solution=solution, task="sync_channel_list")

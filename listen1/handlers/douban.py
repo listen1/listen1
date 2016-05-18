@@ -173,7 +173,7 @@ class DBLoginHandler(BaseHandler):
             user_info = dict(token=realtoken, ck=ck)
             set_douban_token_ck(token=realtoken, ck=ck)
             result = dict(token=token, success='1', user=user_info)
-        _clear_temp_folder()
+            _clear_temp_folder()
         self.write(dict(result=result))
 
 
