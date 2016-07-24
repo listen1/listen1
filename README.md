@@ -10,7 +10,7 @@ Listen 1 让你用一个网页就能听到多个网站的在线音乐（现已�
 
 支持浏览器：IE 11, Chrome, FireFox, Safari
 
-* 主页：[https://github.com/listen1/listen1](https://github.com/listen1/listen1)
+* 主页：[https://github.com/listen1/listen1](https://github.com/listen1/listen1) 国内请访问[http://githublisten1.coding.me/listen1/](http://githublisten1.coding.me/listen1/)
 * 联系邮箱：githublisten1@gmail.com
 
 [![platform](http://i.imgur.com/if4CNr2.png?1)]()
