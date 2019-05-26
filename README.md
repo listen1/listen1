@@ -4,7 +4,7 @@ Listen 1
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 [![platform](https://img.shields.io/badge/python-2.7-green.svg)]()
 
-注意：本项目已经停止维护，而发展为两个新项目。Lisen1插件版请前往[listen1/listen1_chrome_extension](https://github.com/listen1/listen1_chrome_extension)，Listen1桌面版请前往[listen1/listen1_desktop](https://github.com/listen1/listen1_desktop)
+注意：本项目已经停止维护，而发展为两个新项目。Listen1插件版请前往[listen1/listen1_chrome_extension](https://github.com/listen1/listen1_chrome_extension)，Listen1桌面版请前往[listen1/listen1_desktop](https://github.com/listen1/listen1_desktop)
 
 Listen 1 让你用一个网页就能听到多个网站的在线音乐（现已包括网易云音乐，QQ音乐，虾米音乐，豆瓣音乐）。你可以非常的简单的访问和收听在线音乐，而不用受到单个音乐网站资源不全的限制了。
 
