@@ -137,7 +137,7 @@
                 var min = 0;
                 index = Math.floor(Math.random() * (max - min + 1)) + min;
               }
-              angularPlayer.playTrack($scope.songs[index].id);
+              if(index < $scope.songs.length) angularPlayer.playTrack($scope.songs[index].id);
               
             });
           }, 0);
@@ -397,7 +397,7 @@
               index = Math.floor(Math.random() * (max - min + 1)) + min;
             }
             //play first song
-            angularPlayer.playTrack($scope.songs[index].id);
+            if(index < $scope.songs.length) angularPlayer.playTrack($scope.songs[index].id);
           });
         }, 0);
         $scope.setCurrentList(list_id);
